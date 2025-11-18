@@ -1,0 +1,84 @@
+ body{
+    margin: 0;
+    padding: 0;
+    background-color: #ff758f;
+    text-align: center;
+} 
+#main{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+    background-color: #ff758f;
+    align-items: center;
+    gap:30px;
+    height: 50vh;
+    
+}
+
+  .mainheading::first-letter{
+  font-size: 5rem;
+  color:#a60331;
+
+}
+.mainheading{
+ background-image: url("./asset/flower.jpeg");
+  background-clip: text;
+  color: transparent;
+  background-color: white; 
+  font-size: 3rem;
+
+}
+h1{
+  background-image: url("./asset/flower.jpeg");
+  background-clip: text;
+  color: transparent;
+  background-color: white; 
+  font-size: 2rem;
+}
+img{
+    height: 50vh;
+}
+.sunglasses{
+  width: 40vh;
+}
+
+
+ 
+
+.card{
+     display: flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+     box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+   padding: 25px;
+   background-color: #c9184a;
+  border-radius: 25px;
+  text-align: center;
+  width: 50vh;
+  height: 100vh;
+   transition: transform 0.4s;
+   font-size: 20px;
+  
+}
+
+
+.card:hover{
+     transform: scale(1.03);
+   box-shadow: 0 8px 24px rgba(0 , 0, 0, 0.2);
+}
+
+button{
+    padding: 20px;
+    background-color: #ff758f ;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+button:hover{
+    padding: 1px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 5px black double;
+}
+
