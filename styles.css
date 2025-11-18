@@ -69,7 +69,7 @@ img{
 }
 
 button{
-    padding: 20px;
+    padding: 15px;
     background-color: #ff758f ;
     border: none;
     border-radius: 25px;
@@ -82,5 +82,6 @@ button:hover{
     font-weight: bold;
     border: 5px black double;
 }
+
 
 
